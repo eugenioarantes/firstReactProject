@@ -8,7 +8,6 @@ import {Header, RepositoryInfo, Issues} from './styles'
 import api from '../../services/api';
 
 import logoImg from '../../assets/logo.svg';
-import { userInfo } from "os";
 
 interface RepositoryInterface {
     full_name: string;
